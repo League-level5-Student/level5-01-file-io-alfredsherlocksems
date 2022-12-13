@@ -57,5 +57,6 @@ public class FileEncryptor {
 		}
 		FileDecryptor d = new FileDecryptor();
 		d.setKey(num);
+		d.bob(num);
 	}
 }

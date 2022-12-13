@@ -35,7 +35,7 @@ public class FileDecryptor {
 		key = k;
 	}
 	public static void main (String [] args) {
-		bob(key);
+		//runs in encryptor
 	}
 	public static void bob(int key) {
 		String line = "";

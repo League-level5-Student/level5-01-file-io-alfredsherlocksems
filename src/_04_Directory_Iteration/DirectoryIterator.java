@@ -15,10 +15,17 @@ public class DirectoryIterator {
 		int returnVal = jfc.showOpenDialog(null);
 		if (returnVal == JFileChooser.APPROVE_OPTION) {
 			File directory = jfc.getSelectedFile();
-			File[] files = directory.listFiles();
-			if(files != null) {
-				for(File f : files) {
-				  System.out.println(f.getAbsolutePath());
+			File[] modules = directory.listFiles();
+			if(modules != null) {
+				for(File m : modules) {
+				  //System.out.println(f.getAbsolutePath());
+					File[] files = m.listFiles();
+					for (File f : files) {
+						if (f.getAbsolutePath().contains(".java")) {
+							System.out.println(f.getAbsolutePath());
+							//ADD FILE WRITER FOR THE COPY WRITERS
+						}
+					}
 				}
 			}
 		}
