@@ -68,3 +68,5 @@ public class FileDecryptor {
 	}
 	
 }
+
+//Copyright © 2022 Alfred Sherlock

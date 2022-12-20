@@ -65,3 +65,5 @@ public class Serialization {
 		}
 	}
 }
+
+//Copyright © 2022 Alfred Sherlock

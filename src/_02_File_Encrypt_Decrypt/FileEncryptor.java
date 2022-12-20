@@ -60,3 +60,5 @@ public class FileEncryptor {
 		d.bob(num);
 	}
 }
+
+//Copyright © 2022 Alfred Sherlock
