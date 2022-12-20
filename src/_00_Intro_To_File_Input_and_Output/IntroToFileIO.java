@@ -70,3 +70,5 @@ public class IntroToFileIO {
 		}
 	}
 }
+
+//Copyright © 2022 Alfred Sherlock

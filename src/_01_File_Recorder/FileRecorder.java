@@ -29,3 +29,5 @@ public class FileRecorder {
 	
 	
 }
+
+//Copyright © 2022 Alfred Sherlock
